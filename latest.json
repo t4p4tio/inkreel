@@ -1,9 +1,9 @@
 {
  "version": "0.4.0",
  "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.4.0/Inkreel.exe",
- "size": 19729351,
- "sha256": "21d9e4fe5f29a10673f963fc5e20ad97359d7fd9d33c05665a1be5b67992a6a8",
+ "size": 19731285,
+ "sha256": "320d1399567e0329c56e9b6edb40bd0e3a0a28e60b97edf059f65e7e5b02df58",
  "date": "2026-11-23",
  "notes": "- The Book: click any page to fix it. Move, retype or delete balloons, aim their tails, reframe a panel, swap in another moment of the shot, or take a panel out. Undo works page by page.\n- Better balloons: Inkreel now finds people and things in each shot, not just faces, keeps the words off them, and crops each panel to leave room for its words.\n- Fast PDFs: the PDF is written in seconds, so saving a fixed page is quick.\n- Updates: Inkreel checks for new versions and installs one when you choose it. Every update is signed with Inkreel's release key.",
- "sig": "4335f95a3be36f81b8541a07659e34f1e910d8b3bcda71747d81c6c076c9420482d5054768e9237b9264d5aa3efb3429d3c9ccb8b88abadddc94bb9e2e2f4006"
+ "sig": "d19deb60bba10972a15096c17adcf0c41faa0a6179948c09bcea463e7d1c0aeaa78ab31e6762d8e25f16cdbb2a0b262b6e4826c8c8dd506f094de8695ef21a06"
 }
