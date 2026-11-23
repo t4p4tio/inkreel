@@ -1,5 +1,12 @@
 [
  {
+  "version": "0.7.0",
+  "date": "2026-11-23",
+  "notes": "- Print: choose a paper in Save: US comic, Euro album, Manga (B6), Digest, US Letter, A4, A5, Tabloid, A3, A4 landscape, or a custom size. Pages are laid out again for its shape: small paper gets fewer panels a page, so words never go under 7 pt. A fixed length like 64 pages stays 64 pages.\n- Saved PDFs carry the words as real text, so they're sharp at any size.\n- Bleed and crop marks for a print shop, or a booklet to print double-sided at home, fold and staple (A5 pages on A4 sheets, Digest on Letter).",
+  "size": 19766979,
+  "sha256": "7c952f68cf83e667268e1355069c0da2820bce49c903c9cda8c84986512790da"
+ },
+ {
   "version": "0.6.0",
   "date": "2026-11-23",
   "notes": "- New style: Film's own. Inkreel measures the film's colours from its frames and prints the comic in them, as a flat screen-print palette. Drawn and animated films keep their own colours with firmer outlines, and Inkreel suggests this look when a film looks drawn.\n- New look from pictures: go past the last STYLE to open it, then add 3 to 20 posters, stills or comic pages. Inkreel reads their colours, outlines, shading and paper grain, shows two frames of your movie in the look, and saves it to your Comics folder's Looks folder so it appears in STYLE.\n- Changing a look never watches the film again.",

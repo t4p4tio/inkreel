@@ -1,9 +1,9 @@
 {
- "version": "0.6.0",
- "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.6.0/Inkreel.exe",
- "size": 19756712,
- "sha256": "eb50c25bbbd4796ab83499b8fe4a6a66d3c48d42bfab96b978930fa5a70cde7a",
+ "version": "0.7.0",
+ "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.7.0/Inkreel.exe",
+ "size": 19766979,
+ "sha256": "7c952f68cf83e667268e1355069c0da2820bce49c903c9cda8c84986512790da",
  "date": "2026-11-23",
- "notes": "- New style: Film's own. Inkreel measures the film's colours from its frames and prints the comic in them, as a flat screen-print palette. Drawn and animated films keep their own colours with firmer outlines, and Inkreel suggests this look when a film looks drawn.\n- New look from pictures: go past the last STYLE to open it, then add 3 to 20 posters, stills or comic pages. Inkreel reads their colours, outlines, shading and paper grain, shows two frames of your movie in the look, and saves it to your Comics folder's Looks folder so it appears in STYLE.\n- Changing a look never watches the film again.",
- "sig": "cb881070e5007e38eb68f828ebf2eabe4205d2e603316f888e8c8f2127af7153f4ea4851534e7ed23d0c65181a933545d60e3f91a2aa2f898caf3c5b8b042102"
+ "notes": "- Print: choose a paper in Save: US comic, Euro album, Manga (B6), Digest, US Letter, A4, A5, Tabloid, A3, A4 landscape, or a custom size. Pages are laid out again for its shape: small paper gets fewer panels a page, so words never go under 7 pt. A fixed length like 64 pages stays 64 pages.\n- Saved PDFs carry the words as real text, so they're sharp at any size.\n- Bleed and crop marks for a print shop, or a booklet to print double-sided at home, fold and staple (A5 pages on A4 sheets, Digest on Letter).",
+ "sig": "9fe5e091ad156d2222c5f6e3cb4a1b2db0eb91cad017c808f5a2f7a2cf7efd0c1ff122e273087473470da06757716d6afb67364f3a66e9d1d0eed9bf0519e00a"
 }
