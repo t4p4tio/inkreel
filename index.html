@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inkreel · movie to graphic novel</title>
+<meta name="description" content="Inkreel is a Windows app that turns a movie on your PC into a comic: every scene inked, the dialogue lettered into balloons, bound as a PDF you can fix page by page.">
+<meta name="theme-color" content="#0E0D0B">
+<meta property="og:title" content="Inkreel · movie to graphic novel">
+<meta property="og:description" content="A Windows app that turns a movie into a comic-style graphic novel. Test builds and updates.">
+<meta property="og:image" content="https://t4p4tio.github.io/inkreel/img/book.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/Anton-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the page</a>
+
+<header class="top">
+  <a class="mark" href="#" aria-label="Inkreel, top of the page">INK<span>REEL</span></a>
+  <nav aria-label="On this page">
+    <a href="#how">How it works</a>
+    <a href="#start">Before you start</a>
+    <a href="#updates">Updates</a>
+    <a href="#new">What's new</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="hero-text">
+      <h1 class="title">INK<span>REEL</span></h1>
+      <p class="kicker"><i></i>Movie to graphic novel</p>
+      <p class="lede">A Windows app that turns a movie on your PC into a comic. It watches the film, picks its moments,
+        inks them, letters the dialogue into balloons and binds it all as a PDF. Then you can fix any page.</p>
+      <div class="get">
+        <a class="dl" href="https://github.com/t4p4tio/inkreel/releases/latest/download/Inkreel.exe" data-dl>
+          <span>Download</span>
+        </a>
+        <p class="dl-meta">
+          <span data-fill="version">Latest test build</span>
+          <span data-fill="size" hidden></span>
+          <span>Windows 10 and 11, 64-bit</span>
+        </p>
+        <p class="dl-links"><a href="#start">What to expect on first run</a> · <a href="https://github.com/t4p4tio/inkreel/releases">Every version</a></p>
+      </div>
+    </div>
+    <figure class="hero-shot">
+      <a href="img/book.jpg"><img src="img/book.jpg" width="1200" height="680" alt="Inkreel's Book: a two-page spread of a comic in the Noir Ink look, with panels of a figure in a hat on a station platform at night."></a>
+    </figure>
+  </section>
+
+  <section class="shots" aria-labelledby="shots-h">
+    <h2 class="sr" id="shots-h">The app</h2>
+    <figure class="shot">
+      <a href="img/ready.jpg"><img src="img/ready-600.jpg" srcset="img/ready-600.jpg 600w, img/ready.jpg 1200w" sizes="(max-width: 760px) 100vw, 360px" width="600" height="340" loading="lazy" alt="Inkreel's menu: READ IT, with the movie, style and length below it."></a>
+      <figcaption><b>The menu.</b> One main button. Pick the movie, the look and the length; Inkreel does the rest.</figcaption>
+    </figure>
+    <figure class="shot">
+      <a href="img/book.jpg"><img src="img/book-600.jpg" srcset="img/book-600.jpg 600w, img/book.jpg 1200w" sizes="(max-width: 760px) 100vw, 360px" width="600" height="340" loading="lazy" alt="The Book: two comic pages side by side."></a>
+      <figcaption><b>The Book.</b> Turn the pages, switch looks, and save the PDF or every page as a 300 dpi image.</figcaption>
+    </figure>
+    <figure class="shot">
+      <a href="img/edit.jpg"><img src="img/edit-600.jpg" srcset="img/edit-600.jpg 600w, img/edit.jpg 1200w" sizes="(max-width: 760px) 100vw, 360px" width="600" height="340" loading="lazy" alt="The page editor: a page on the left, one panel large on the right with a speech balloon, and other moments of the shot below."></a>
+      <figcaption><b>Fixing a page.</b> Move or retype a balloon, aim its tail, reframe a panel or pick another moment of the shot.</figcaption>
+    </figure>
+  </section>
+
+  <section class="how" id="how" aria-labelledby="how-h">
+    <div class="sec-head">
+      <p class="kicker"><i></i>How it works</p>
+      <h2 id="how-h">Six stages, one button</h2>
+      <p>Add a movie and press MAKE COMIC. A 1 h 45 min film with no subtitles takes about 8 to 9 minutes on the PC
+        Inkreel was made on, and about 5 with subtitles. PAUSE stops it; RESUME carries on from the last finished stage.</p>
+    </div>
+    <ol class="page">
+      <li class="panel wide">
+        <h3><span>1</span> Watch</h3>
+        <p>One pass through the whole film finds every cut and every scene, and how loud each moment is.</p>
+      </li>
+      <li class="panel">
+        <h3><span>2</span> Listen</h3>
+        <p>The lines come from the movie's own subtitles or a <code>.srt</code> beside it. With none, Inkreel listens
+          (Whisper, on an NVIDIA graphics card) and writes them in English.</p>
+      </li>
+      <li class="panel">
+        <h3><span>3</span> Pick</h3>
+        <p>Scenes become beats, and each beat gets its best frame: conversations, reactions, the shot that sets the
+          scene. Fast cutting is gathered into moments.</p>
+      </li>
+      <li class="panel">
+        <h3><span>4</span> Ink</h3>
+        <p>Each frame is drawn in your look (Noir Ink, Pop Halftone, Clean Line or Manga) at 300 dpi, cropped to keep
+          faces whole and leave room for the words.</p>
+      </li>
+      <li class="panel">
+        <h3><span>5</span> Letter</h3>
+        <p>Inkreel watches lips to see who's talking, then letters balloons and captions that keep off faces, heads and
+          the things that matter in the shot.</p>
+      </li>
+      <li class="panel wide">
+        <h3><span>6</span> Bind</h3>
+        <p>Pages are laid out on 4 to 8 panel grids with a cover, and saved as a PDF in <code>Documents\Comics</code>.
+          Choose the length: Faithful (about 275 pages for that 1 h 45 min film), Every shot, Condensed, or a fixed
+          32 to 200 pages.</p>
+      </li>
+    </ol>
+    <div class="book-note">
+      <h3>Then fix any page in the Book</h3>
+      <p>Click a page, then a panel. Drag a balloon to move it, drag its yellow dot to aim the tail, double-click to
+        retype it. Drag the picture to reframe, pick another moment of the same shot, or take a panel out and the page
+        lays itself out again. Undo works page by page, and Done writes the PDF again in a second or two.</p>
+    </div>
+  </section>
+
+  <section class="start" id="start" aria-labelledby="start-h">
+    <div class="sec-head">
+      <p class="kicker"><i></i>Before you start</p>
+      <h2 id="start-h">What your PC needs</h2>
+    </div>
+    <div class="cols">
+      <div>
+        <ul class="needs">
+          <li><b>Windows 10 or 11, 64-bit.</b> Nothing else to install, and no admin rights needed.</li>
+          <li><b>A movie file on your PC</b>: MP4, MKV, MOV, AVI and most others. Inkreel doesn't download or rip anything.</li>
+          <li><b>An internet connection the first time.</b> Inkreel fetches only what's missing, checks every file, and
+            can pause and pick up where it left off.</li>
+          <li><b>An NVIDIA graphics card only for listening</b>, that is, for movies with no subtitles. Movies with
+            subtitles (or a <code>.srt</code>) work on any PC.</li>
+          <li><b>A few GB free while making a comic.</b> Each movie's work is kept, so a new look or length doesn't
+            start from scratch. A Faithful book is about 80 MB as a PDF.</li>
+        </ul>
+        <p class="small">Some Windows 10 PCs lack Microsoft's WebView2, which draws Inkreel's window. If yours does,
+          Inkreel offers to fetch Microsoft's installer and checks its signature first.</p>
+      </div>
+      <div>
+        <table class="sizes">
+          <caption>Downloaded on first run</caption>
+          <tbody>
+            <tr><th scope="row">ffmpeg <small>only if the PC hasn't version 6 or newer</small></th><td>about 110 MB</td></tr>
+            <tr><th scope="row">The engine <small>its own Python and packages</small></th><td>about 100 MB</td></tr>
+            <tr><th scope="row">Face and people finders</th><td>38 MB</td></tr>
+            <tr><th scope="row">Speech tools and model <small>only the first time a movie has no subtitles, NVIDIA only</small></th><td>about 4.4 GB</td></tr>
+          </tbody>
+        </table>
+        <p class="small">Everything goes in <code>%LOCALAPPDATA%\Inkreel</code>, never into Windows or your own
+          Python. To remove Inkreel, delete <code>Inkreel.exe</code> and that folder. Comics stay in
+          <code>Documents\Comics</code>.</p>
+      </div>
+    </div>
+
+    <div class="warn" id="smartscreen">
+      <h3>Windows will warn you the first time</h3>
+      <p>Inkreel isn't signed with a paid code-signing certificate, so Windows doesn't know it yet. Your browser may
+        say the file isn't commonly downloaded: choose <b>Keep</b>. When you open it, Windows may say
+        <q>Windows protected your PC</q>: choose <b>More info</b>, then <b>Run anyway</b>. That happens once.</p>
+      <p>To check the file is exactly the one published here, run this in PowerShell and compare the result with the
+        SHA-256 below.</p>
+      <pre><code>Get-FileHash "$env:USERPROFILE\Downloads\Inkreel.exe" -Algorithm SHA256</code></pre>
+      <p class="sha"><span>SHA-256</span> <code data-fill="sha">shown here once the latest version has loaded</code></p>
+    </div>
+  </section>
+
+  <section class="updates" id="updates" aria-labelledby="updates-h">
+    <div class="sec-head">
+      <p class="kicker"><i></i>Updates</p>
+      <h2 id="updates-h">It keeps itself up to date</h2>
+    </div>
+    <div class="cols">
+      <p>After its usual checks on start-up, Inkreel asks this site for the newest version. When there is one, the menu
+        shows <b class="chip">UPDATE · to 0.5.0</b>. Choose it and Inkreel downloads the new version, checks it,
+        swaps itself in and restarts. Your comics, settings and downloaded tools stay as they are. Settings › Updates ›
+        Check now asks straight away. Nothing updates until you choose it.</p>
+      <p>Every update is signed with Inkreel's release key, which never leaves the developer's PC. Inkreel checks the
+        signature, the size and the SHA-256 before it installs anything, so a damaged or swapped file is thrown away.
+        Keep <code>Inkreel.exe</code> in a folder of your own, like Downloads or the desktop, so it can replace itself.</p>
+    </div>
+  </section>
+
+  <section class="new" id="new" aria-labelledby="new-h">
+    <div class="sec-head">
+      <p class="kicker"><i></i>What's new</p>
+      <h2 id="new-h">Versions</h2>
+    </div>
+    <div class="log" data-log>
+      <p class="small">The list of versions is on <a href="https://github.com/t4p4tio/inkreel/releases">GitHub's releases page</a>.</p>
+    </div>
+  </section>
+
+  <section class="credits" aria-labelledby="credits-h">
+    <div class="cols">
+      <div>
+        <h2 id="credits-h">Made with</h2>
+        <ul class="made">
+          <li><a href="https://ffmpeg.org/">FFmpeg</a> (the <a href="https://www.gyan.dev/ffmpeg/builds/">gyan.dev</a> essentials build, GPL v3), downloaded on first run if needed</li>
+          <li><a href="https://opencv.org/">OpenCV</a> (Apache 2.0), with <a href="https://github.com/opencv/opencv_zoo">YuNet</a> (MIT) for faces and <a href="https://github.com/Megvii-BaseDetection/YOLOX">YOLOX</a> (Apache 2.0) for people and things</li>
+          <li><a href="https://github.com/google-ai-edge/mediapipe">MediaPipe Face Mesh</a> (Apache 2.0) for lips</li>
+          <li><a href="https://github.com/openai/whisper">Whisper</a> large-v3 (MIT), run by <a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a> and <a href="https://github.com/OpenNMT/CTranslate2">CTranslate2</a> (MIT)</li>
+          <li><a href="https://pywebview.flowrl.com/">pywebview</a> (BSD), Python, NumPy, Pillow, ReportLab and <a href="https://github.com/astral-sh/uv">uv</a></li>
+          <li>The fonts Anton, Archivo, Comic Neue and Bangers, under the <a href="fonts/OFL-Anton.txt">SIL Open Font Licence</a></li>
+        </ul>
+      </div>
+      <div class="personal">
+        <h2>For personal use</h2>
+        <p>Inkreel is a personal experiment, shared with a few testers. Use it with movies you own, and keep the comics
+          it makes for yourself: a comic made from a film is still that film's story, pictures and words.</p>
+        <p>It's a test build, so expect rough edges. Inkreel keeps a log in <code>%LOCALAPPDATA%\Inkreel\logs</code>;
+          Settings › Open log folder shows it.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <a class="mark" href="#">INK<span>REEL</span></a>
+  <p><span data-fill="version-foot">Inkreel</span> · <a href="https://github.com/t4p4tio/inkreel/releases">Releases</a> · <a href="https://github.com/t4p4tio/inkreel">GitHub</a></p>
+</footer>
+
+<script src="site.js" defer></script>
+</body>
+</html>
