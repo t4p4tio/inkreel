@@ -1,5 +1,12 @@
 [
  {
+  "version": "0.8.0",
+  "date": "2026-11-23",
+  "notes": "- Inkreel installs itself: the first time you run the download, it copies itself to your user folder and adds Inkreel to the desktop and Start menu. After that you can delete the download, and updates go to the installed copy.\n- It picks up where you left off: the last movie opens again with its comic ready to read, and an unfinished comic comes back paused, ready to resume.\n- My comics: every comic you've made, with its cover. Click one to open it in the Book.\n- CBZ: save for comic-reader apps (manga marked right to left).",
+  "size": 19783635,
+  "sha256": "da2a8982826e457277d63e9a4049d5a66bbc93cfb01b9d04aa5ea3ca67dbda90"
+ },
+ {
   "version": "0.7.0",
   "date": "2026-11-23",
   "notes": "- Print: choose a paper in Save: US comic, Euro album, Manga (B6), Digest, US Letter, A4, A5, Tabloid, A3, A4 landscape, or a custom size. Pages are laid out again for its shape: small paper gets fewer panels a page, so words never go under 7 pt. A fixed length like 64 pages stays 64 pages.\n- Saved PDFs carry the words as real text, so they're sharp at any size.\n- Bleed and crop marks for a print shop, or a booklet to print double-sided at home, fold and staple (A5 pages on A4 sheets, Digest on Letter).",
