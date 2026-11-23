@@ -1,9 +1,9 @@
 {
- "version": "0.9.0",
- "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.9.0/Inkreel.exe",
- "size": 19796311,
- "sha256": "93effa0373e6b3a15817b44fe54e97f37fa583f748c87edbe37864148220adea",
+ "version": "0.9.1",
+ "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.9.1/Inkreel.exe",
+ "size": 19802130,
+ "sha256": "327930582fa3325f894b14d0bb63bf4ce14041c379ce75d890c21bafc07f9b2b",
  "date": "2026-11-23",
- "notes": "- New DESIGN screen (on the menu once a movie is added, and in the Book): pick the style with a live preview of your film's frames, and fix a dark film with Brightness, Contrast and Shadows.\n- New style: As filmed, which keeps the video's own picture.\n- Page options: paper size, full bleed (panels to the edge of the page), and page numbers outside, inside, centred or off, plain or in a circle, box or cut-out tab, at the height you want.\n- Nothing is made until you press Make comic.",
- "sig": "29b128d7c84213a8d99a93dc75aec484a9f4e2ea1988ffe764eb84d3c7dd04fc8195c4ec819f83be4d24eddf50283f96b4b0c58a9db8649435b0141fd9a2d802"
+ "notes": "- Design now has a timeline: skim your film's moments, drag the playhead or type a timecode like 30:20, then mark Spread here (one picture across two facing pages), Splash page here, or Style from here (for example As filmed from 1:00:00 on).\n- Big panels (splash pages, spreads, close crops) are inked at the frame's own resolution, so they get bold clean lines instead of blobs.",
+ "sig": "472e591f9a5de01b4703c5df6a6d923d46a5ea9fad748bf41583186a6803a71b50f64e6a5f1c0cb47ef7dd60017151e338a5bc96ee7b249a7e28a91b2241b60f"
 }
