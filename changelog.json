@@ -1,5 +1,12 @@
 [
  {
+  "version": "0.10.0",
+  "date": "2026-11-23",
+  "notes": "- New: AI looks, for PCs with an NVIDIA graphics card. AI Ink (colour) and AI Noir (black and white) redraw every panel as a comic illustration, held to the film's own line art, so faces, hands, signs and small things stay readable instead of turning into blobs. They're the first two stops in STYLE, and work in Design and in 'style from here' marks.\n- The first comic with an AI look downloads about 5.7 GB once (the AI's own tools and models, every file pinned and checked). After that, a 32-page comic takes about 3-4 minutes more than a classic look.\n- Settings now has an AI looks row that says whether they're ready.",
+  "size": 19859868,
+  "sha256": "919089c8eb01cc6f3c28ed47fe402c299f25d7cef8479c8fea4b969436504ada"
+ },
+ {
   "version": "0.9.1",
   "date": "2026-11-23",
   "notes": "- Design now has a timeline: skim your film's moments, drag the playhead or type a timecode like 30:20, then mark Spread here (one picture across two facing pages), Splash page here, or Style from here (for example As filmed from 1:00:00 on).\n- Big panels (splash pages, spreads, close crops) are inked at the frame's own resolution, so they get bold clean lines instead of blobs.",
