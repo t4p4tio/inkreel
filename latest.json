@@ -1,9 +1,9 @@
 {
- "version": "0.8.2",
- "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.8.2/Inkreel.exe",
- "size": 19787266,
- "sha256": "44ca50a4e4f02a4869b9124752195843ffd26e0f98dd5300c918c88c4143ce16",
+ "version": "0.8.3",
+ "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.8.3/Inkreel.exe",
+ "size": 19788141,
+ "sha256": "20296023570d7aae6d4d3db2b15f254c40208029175aea56d42668c3c4ce9c4a",
  "date": "2026-11-23",
- "notes": "- STYLE no longer traps you: the \u2039 and \u203a arrows now step back and forward, New look\u2026 is its own stop (click it to open), and the list wraps back to Noir Ink.\n- Run as administrator by mistake? Inkreel now restarts itself normally, so its window no longer comes up black.",
- "sig": "27f704941e1eb8bbd00686e0c3ea613544084dc728cf1e8b5a2769ff869fba915d68d11006eec26431265b21b5dfc8f6abb25b4015196577020494ca5473b301"
+ "notes": "- Settings > Updates now has an Update button whenever a newer Inkreel is ready (next to Check now).\n- PAPER is on the main menu, under STYLE and LENGTH: step through the paper sizes with the arrows.",
+ "sig": "896f5e96cd54059bae52449dbe957705543f66df5481ba618066c50a005a6d820b5656ab56ad041d10db95b6bf694d4a12cbfa0a58887c28d3fc8a1c16aa8d05"
 }

@@ -1,5 +1,12 @@
 [
  {
+  "version": "0.8.3",
+  "date": "2026-11-23",
+  "notes": "- Settings > Updates now has an Update button whenever a newer Inkreel is ready (next to Check now).\n- PAPER is on the main menu, under STYLE and LENGTH: step through the paper sizes with the arrows.",
+  "size": 19788141,
+  "sha256": "20296023570d7aae6d4d3db2b15f254c40208029175aea56d42668c3c4ce9c4a"
+ },
+ {
   "version": "0.8.2",
   "date": "2026-11-23",
   "notes": "- STYLE no longer traps you: the \u2039 and \u203a arrows now step back and forward, New look\u2026 is its own stop (click it to open), and the list wraps back to Noir Ink.\n- Run as administrator by mistake? Inkreel now restarts itself normally, so its window no longer comes up black.",
