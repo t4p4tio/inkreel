@@ -1,5 +1,12 @@
 [
  {
+  "version": "0.8.2",
+  "date": "2026-11-23",
+  "notes": "- STYLE no longer traps you: the \u2039 and \u203a arrows now step back and forward, New look\u2026 is its own stop (click it to open), and the list wraps back to Noir Ink.\n- Run as administrator by mistake? Inkreel now restarts itself normally, so its window no longer comes up black.",
+  "size": 19787266,
+  "sha256": "44ca50a4e4f02a4869b9124752195843ffd26e0f98dd5300c918c88c4143ce16"
+ },
+ {
   "version": "0.8.1",
   "date": "2026-11-23",
   "notes": "- The four classic looks are redrawn the way a comic is inked: real ink outlines, faces and people kept clear, calmer backgrounds, solid blacks in Noir, clean screentones in Manga, and the film's own colours as flat inks in Pop and Clean Line. Comics made with them are inked again the next time you make them.",

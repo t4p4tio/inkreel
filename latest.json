@@ -1,9 +1,9 @@
 {
- "version": "0.8.1",
- "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.8.1/Inkreel.exe",
- "size": 19787732,
- "sha256": "60a0ed855a47811dfacc5af7164454cd089d1331f4dfa91d78d921e6a0df614b",
+ "version": "0.8.2",
+ "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.8.2/Inkreel.exe",
+ "size": 19787266,
+ "sha256": "44ca50a4e4f02a4869b9124752195843ffd26e0f98dd5300c918c88c4143ce16",
  "date": "2026-11-23",
- "notes": "- The four classic looks are redrawn the way a comic is inked: real ink outlines, faces and people kept clear, calmer backgrounds, solid blacks in Noir, clean screentones in Manga, and the film's own colours as flat inks in Pop and Clean Line. Comics made with them are inked again the next time you make them.",
- "sig": "2262daa2305f8a9ba5c3140ba96763aa8d772165a1bfd5b37e18dc49044f760d6202c498b45afea4950421f41b4d36876dff9c111a380a3fbc5beec344e49b09"
+ "notes": "- STYLE no longer traps you: the \u2039 and \u203a arrows now step back and forward, New look\u2026 is its own stop (click it to open), and the list wraps back to Noir Ink.\n- Run as administrator by mistake? Inkreel now restarts itself normally, so its window no longer comes up black.",
+ "sig": "27f704941e1eb8bbd00686e0c3ea613544084dc728cf1e8b5a2769ff869fba915d68d11006eec26431265b21b5dfc8f6abb25b4015196577020494ca5473b301"
 }
