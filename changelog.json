@@ -1,5 +1,12 @@
 [
  {
+  "version": "0.6.0",
+  "date": "2026-11-23",
+  "notes": "- New style: Film's own. Inkreel measures the film's colours from its frames and prints the comic in them, as a flat screen-print palette. Drawn and animated films keep their own colours with firmer outlines, and Inkreel suggests this look when a film looks drawn.\n- New look from pictures: go past the last STYLE to open it, then add 3 to 20 posters, stills or comic pages. Inkreel reads their colours, outlines, shading and paper grain, shows two frames of your movie in the look, and saves it to your Comics folder's Looks folder so it appears in STYLE.\n- Changing a look never watches the film again.",
+  "size": 19756712,
+  "sha256": "eb50c25bbbd4796ab83499b8fe4a6a66d3c48d42bfab96b978930fa5a70cde7a"
+ },
+ {
   "version": "0.5.0",
   "date": "2026-11-23",
   "notes": "- Sound effects: WHAM!, BLAM!, CRASH! and BOOM! lettered on the film's loudest moments, and from sound tags in subtitles like [GUNSHOT]. Drag, retype or delete them in the Book like balloons. Turn them off in Settings > Words.\n- Manga Tone reads right to left: pages, balloons and the Book's spreads run from the right, and the PDF opens that way in viewers. Settings > Comics switches it back.\n- Settings has the two new switches. Changing one re-letters the comic without watching the film again.",
