@@ -1,5 +1,12 @@
 [
  {
+  "version": "0.5.0",
+  "date": "2026-11-23",
+  "notes": "- Sound effects: WHAM!, BLAM!, CRASH! and BOOM! lettered on the film's loudest moments, and from sound tags in subtitles like [GUNSHOT]. Drag, retype or delete them in the Book like balloons. Turn them off in Settings > Words.\n- Manga Tone reads right to left: pages, balloons and the Book's spreads run from the right, and the PDF opens that way in viewers. Settings > Comics switches it back.\n- Settings has the two new switches. Changing one re-letters the comic without watching the film again.",
+  "size": 19746703,
+  "sha256": "5f8ae2e172e7a31f20bd065a6be38d84e5c8d05111cb8ac6c45e6107f182fe1f"
+ },
+ {
   "version": "0.4.0",
   "date": "2026-11-23",
   "notes": "- The Book: click any page to fix it. Move, retype or delete balloons, aim their tails, reframe a panel, swap in another moment of the shot, or take a panel out. Undo works page by page.\n- Better balloons: Inkreel now finds people and things in each shot, not just faces, keeps the words off them, and crops each panel to leave room for its words.\n- Fast PDFs: the PDF is written in seconds, so saving a fixed page is quick.\n- Updates: Inkreel checks for new versions and installs one when you choose it. Every update is signed with Inkreel's release key.",
