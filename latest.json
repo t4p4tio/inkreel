@@ -1,9 +1,9 @@
 {
- "version": "0.8.0",
- "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.8.0/Inkreel.exe",
- "size": 19783635,
- "sha256": "da2a8982826e457277d63e9a4049d5a66bbc93cfb01b9d04aa5ea3ca67dbda90",
+ "version": "0.8.1",
+ "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.8.1/Inkreel.exe",
+ "size": 19787732,
+ "sha256": "60a0ed855a47811dfacc5af7164454cd089d1331f4dfa91d78d921e6a0df614b",
  "date": "2026-11-23",
- "notes": "- Inkreel installs itself: the first time you run the download, it copies itself to your user folder and adds Inkreel to the desktop and Start menu. After that you can delete the download, and updates go to the installed copy.\n- It picks up where you left off: the last movie opens again with its comic ready to read, and an unfinished comic comes back paused, ready to resume.\n- My comics: every comic you've made, with its cover. Click one to open it in the Book.\n- CBZ: save for comic-reader apps (manga marked right to left).",
- "sig": "872fd7e1c0a6e6a5cd731b14a47323388a1015ddc6ba0989b18b4bc11b5a1e547228fa94618dc3c4c0af5ed4159486fb95fd6d0a9822faddc07211f6d5745900"
+ "notes": "- The four classic looks are redrawn the way a comic is inked: real ink outlines, faces and people kept clear, calmer backgrounds, solid blacks in Noir, clean screentones in Manga, and the film's own colours as flat inks in Pop and Clean Line. Comics made with them are inked again the next time you make them.",
+ "sig": "2262daa2305f8a9ba5c3140ba96763aa8d772165a1bfd5b37e18dc49044f760d6202c498b45afea4950421f41b4d36876dff9c111a380a3fbc5beec344e49b09"
 }
