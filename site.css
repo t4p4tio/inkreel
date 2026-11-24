@@ -137,6 +137,11 @@ h3 { margin: 0; }
 .rel li + li { margin-top: 6px; }
 .rel p { margin: 0; color: rgba(241, 234, 219, .86); }
 
+/* the people: each name in the display type, with the yellow skewed marker */
+.names { display: flex; flex-wrap: wrap; gap: 14px 56px; margin: 0; padding: 0; list-style: none; }
+.names li { position: relative; padding-left: 30px; font: 400 clamp(34px, 4.4vw, 52px)/1 var(--f-display); letter-spacing: .03em; text-transform: uppercase; }
+.names li::before { content: ''; position: absolute; left: 0; top: .3em; width: 14px; height: 14px; background: var(--accent); transform: skewX(-9deg); }
+
 /* credits */
 .credits { padding-top: 96px; }
 .credits h2 { margin: 0 0 18px; font-size: 34px; }
