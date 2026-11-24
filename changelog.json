@@ -1,5 +1,12 @@
 [
  {
+  "version": "0.11.0",
+  "date": "2026-11-23",
+  "notes": "- Every style is now drawn by the AI first, on PCs with an NVIDIA graphics card: Noir Ink, Manga Tone, Pop Halftone, Clean Line and the film's own look each get an AI drawing made for them (stark black and white for Noir, screentones for Manga, bold colour for Pop, flat colour for Clean Line), then printed in their style. Faces, signs, writing and props stay readable instead of turning into blobs.\n- Faces stay true to the film: their lightness and colour are kept close to the frame's, so nobody's skin gets darker or changes colour.\n- Settings > AI drawing turns it off for the fast versions (it's on by default with an NVIDIA card). As filmed is never drawn.\n- The first comic with AI drawing downloads about 5.7 GB once; if that fails, the comic is still made with the fast versions.",
+  "size": 19865652,
+  "sha256": "03c46c316a4395f96bc0a549d3fe385e2dd1db6befb7b0e7b84be9a6ff6c5797"
+ },
+ {
   "version": "0.10.0",
   "date": "2026-11-23",
   "notes": "- New: AI looks, for PCs with an NVIDIA graphics card. AI Ink (colour) and AI Noir (black and white) redraw every panel as a comic illustration, held to the film's own line art, so faces, hands, signs and small things stay readable instead of turning into blobs. They're the first two stops in STYLE, and work in Design and in 'style from here' marks.\n- The first comic with an AI look downloads about 5.7 GB once (the AI's own tools and models, every file pinned and checked). After that, a 32-page comic takes about 3-4 minutes more than a classic look.\n- Settings now has an AI looks row that says whether they're ready.",
