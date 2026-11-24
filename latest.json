@@ -1,9 +1,9 @@
 {
- "version": "0.11.0",
- "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.11.0/Inkreel.exe",
- "size": 19865652,
- "sha256": "03c46c316a4395f96bc0a549d3fe385e2dd1db6befb7b0e7b84be9a6ff6c5797",
- "date": "2026-11-23",
- "notes": "- Every style is now drawn by the AI first, on PCs with an NVIDIA graphics card: Noir Ink, Manga Tone, Pop Halftone, Clean Line and the film's own look each get an AI drawing made for them (stark black and white for Noir, screentones for Manga, bold colour for Pop, flat colour for Clean Line), then printed in their style. Faces, signs, writing and props stay readable instead of turning into blobs.\n- Faces stay true to the film: their lightness and colour are kept close to the frame's, so nobody's skin gets darker or changes colour.\n- Settings > AI drawing turns it off for the fast versions (it's on by default with an NVIDIA card). As filmed is never drawn.\n- The first comic with AI drawing downloads about 5.7 GB once; if that fails, the comic is still made with the fast versions.",
- "sig": "91903589ae854c4843b0f5077fd03e7295c45888fc2c73c58814bdb0c7f050916a73981bf0749bf43c546a957ce5a563f44864c8795ba67e6ffdd6c869512e08"
+ "version": "0.11.1",
+ "url": "https://github.com/t4p4tio/inkreel/releases/download/v0.11.1/Inkreel.exe",
+ "size": 19861917,
+ "sha256": "3ece11aa90d8246b09c16669afa3b4156005860c87a86b12205519efce652aa0",
+ "date": "2026-11-24",
+ "notes": "Settings now has a Credits section: Inkreel is by Luis Martinez and Israel Gutierrez.",
+ "sig": "6246ebb7993db0610a3612643cb2817533a8247393bd244ece02b6d5c8cc8de61aefa2205891342ccb533c5763542c6c30c79ff3385df68bdc3fd6f1f5b47106"
 }
